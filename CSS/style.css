@@ -1,11 +1,55 @@
 body {
     background-color: #145da0;
+    margin: 0;
 }
 
 header {
     display: flex;
+    justify-content: space-between;
+    border-bottom: 10px solid #89cff0;
+}
+.left-header {
+    display: flex;
+}
+.right-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 25px;
+    color: white;
+}
+.right-header h2 {
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menuButton img {
+    width: 100px;
+    height: 100px;
+    color: white;
 }
 .enlinea {
+    display: flex;
+    align-items: center;
+    width: 300px;
+
+    color: white;
+    justify-content: space-evenly;
+
     font-weight: lighter;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+}
+h1 {
+    font-weight: lighter;
+    color: #89cff0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.employee-position {
+    margin-left: 20px;
 }
