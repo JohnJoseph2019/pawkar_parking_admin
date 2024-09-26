@@ -26,6 +26,8 @@ header {
     width: 100px;
     height: 100px;
     color: white;
+    position: relative;
+    display: inline-block;
 }
 .enlinea {
     display: flex;
@@ -52,4 +54,31 @@ h1 {
 }
 .employee-position {
     margin-left: 20px;
+}
+
+#myLinks {
+    display: none;
+    position: absolute;
+
+    width: 350px;
+    font-size: 35px;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 11px;
+}
+#myLinks a {
+    color: white;
+    background-color: #89cff0;
+    padding: 12px 30px;
+    height: 60px;
+    text-decoration: none;
+    border: 2px solid #145da0;
+    display: block;
+}
+
+.menuButton:hover #myLinks {
+    display: block;
 }
